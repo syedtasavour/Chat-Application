@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Chat Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-screen">
+        <h1>Welcome to 3D Chat</h1>
+        <input type="text" id="username-input" placeholder="Enter your username">
+        <button id="login-button">Join Chat</button>
+    </div>
+
+    <div id="chat-screen" style="display: none;">
+        <div id="room-list">
+            <h2>Chat Rooms</h2>
+            <ul id="rooms"></ul>
+            <input type="text" id="new-room-input" placeholder="New room name">
+            <button id="create-room-button">Create Room</button>
+        </div>
+        <div id="chat-area">
+            <h2 id="current-room">Room: General</h2>
+            <div id="messages"></div>
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
