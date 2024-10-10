@@ -1,6 +1,14 @@
 
 # 3D Chat Application - Project Report
 
+[Live Demo](https://syedtasavour.github.io/Chat-Application/)
+
+## Project Clone
+
+```bash
+git clone https://github.com/syedtasavour/Chat-Application
+```
+
 ## 1. Executive Summary
 
 This report outlines the development of a real-time 3D Chat Application using HTML, CSS, JavaScript, Three.js, and GSAP. The project aims to create an engaging and interactive chat platform with a unique 3D background.
